@@ -1,0 +1,22 @@
+--a--
+You are given a string consisting of parentheses rR and lL. A string of this type is said to be correct:
+(a) if it is the empty string
+(b) if A and B are correct, AB is correct,
+(c) if A is correct, rAR and lAL is correct.
+Write a program that takes a sequence of strings of this type and check their correctness. Your
+program can assume that the maximum string length is 128.
+Input is a sequence of strings of parentheses 'rR' and 'lL', one string
+a line.***Test cases end with -1***
+--b--
+rrlrRLRR
+--c--
+Yes
+--d--
+rlLrRlLR
+rrrlllLLLRRL
+rRlrrrlLrRlLRRRLlL
+-1
+--e--
+Yes
+No
+Yes

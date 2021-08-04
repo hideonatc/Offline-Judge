@@ -1,0 +1,21 @@
+--a--
+The description of each test case is given below:
+Three non-negative integers e, f, c, e equals the number of empty soda bottles in
+Tim's possession at the start of the day, f is the number of empty soda bottles found during the
+day, and c is the number of empty bottles required to buy a new soda.
+For each test case print how many sodas did Tim drink on his extra thirsty day? Look at the sample
+output for details.
+***Input end with -1***
+--b--
+9 0 3
+--c--
+4
+--d--
+3 6 3
+7 3 2
+100 0 5
+-1
+--e--
+4
+9
+24

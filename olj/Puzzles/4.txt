@@ -1,0 +1,16 @@
+--a--
+giving a string s ,output hello ,s
+***Test cases end with -1***
+--b--
+Ron
+--c--
+hello ,Ron
+--d--
+Ted
+Mick
+Terry
+-1
+--e--
+hello ,Ted
+hello ,Mick
+hello ,Terry

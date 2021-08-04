@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="728.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="olj.scoretablecontroller">
+   <children>
+      <GridPane gridLinesVisible="true" layoutX="106.0" layoutY="213.0" prefHeight="183.0" prefWidth="519.0" style="-fx-background-color: #B6B6B6;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="q1" prefHeight="14.0" prefWidth="59.0">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q2" prefHeight="14.0" prefWidth="59.0" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q3" prefHeight="14.0" prefWidth="59.0" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q4" prefHeight="14.0" prefWidth="59.0" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q5" prefHeight="14.0" prefWidth="59.0" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q6" prefHeight="14.0" prefWidth="59.0" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q7" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q8" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q9" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q10" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q11" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q12" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q16" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q15" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q14" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q13" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q17" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q18" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q24" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q23" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q22" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q21" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q20" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="q19" prefHeight="14.0" prefWidth="59.0" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <TextField fx:id="id" layoutX="292.0" layoutY="98.0" prefHeight="38.0" prefWidth="160.0" promptText="Enter student id" style="-fx-background-color: #5C5959;">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font></TextField>
+      <Button fx:id="VS" layoutX="320.0" layoutY="446.0" mnemonicParsing="false" onAction="#vs" prefHeight="38.0" prefWidth="105.0" style="-fx-background-color: #5C5959;" text="View Score" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font></Button>
+      <Button fx:id="back" layoutX="55.0" layoutY="454.0" mnemonicParsing="false" onAction="#back_pressed" prefHeight="38.0" prefWidth="59.0" style="-fx-background-color: #5C5959;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font></Button>
+      <Label fx:id="show_id" alignment="CENTER" layoutX="225.0" layoutY="166.0" prefHeight="25.0" prefWidth="281.0" text="Now" textAlignment="CENTER" textFill="WHITE" visible="false">
+         <font>
+            <Font name="Consolas Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

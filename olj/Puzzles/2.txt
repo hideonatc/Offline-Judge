@@ -1,0 +1,15 @@
+--a--
+giving three integers , find the smallest one.***Input end with -1***
+--b--
+1 2 5
+--c--
+The smallest number is 1.
+--d--
+5 6 4
+0 1 2
+9 10 6
+-1
+--e--
+The smallest number is 4.
+The smallest number is 0.
+The smallest number is 6.
